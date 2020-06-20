@@ -6,6 +6,7 @@ const counterReducer = (state,action)=> {
             return ++state;
         case 'dec' :
             return --state;
+        default : return '';
     }
 }
 export default counterReducer;
